@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  height: 100vh;
+  font-family: arial, sans-serif;
+}
+
+header {
+  height: 67px;
+}
+
+nav {
+  height: 47px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 8px;
+}
+
+.container-image {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+}
+
+.links {
+  margin-right: 15px;
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.container-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+main{
+  height: calc(100% - 67px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+main .container{
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px ;
+ 
+}
+main .logo {
+  height: 260px;
+  width: 370px;
+}
+main .microfono{
+
+  width: 20px;
+  height: 20px;
+}
+main .search_icon{
+  width: 20px;
+  height: 20px;
+}
+main .camara{
+  width: 20px;
+  height: 20px;
+}
+main .buscador{
+  height: 40px;
+  width: 450px;
+  padding: 8px;
+  border-radius: 50px;
+  color: black; 
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  box-shadow: 0 1px 6px 0 #20212447;
+}
+main .search_logo{
+  width: 80%;
+  border: none;
+  background-color: transparent;
+}
